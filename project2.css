@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.banner img{
+    width: 30vw;
+    height: 100px;
+    margin: 20px;
+}
+.banner{
+    background: black;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right:30px ;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;   
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;    
+}
+
+button{
+    background: yellow;
+    height: 30px;
+    width: 60px;
+    border-radius: 60px;
+    border:1px solid green;
+    outline: 0;
+    cursor: pointer;
+    padding-left: 3px;
+    margin-right:30px ;
+}
+
+button span{
+    display: block;
+    background: green;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+}
+
+.class-container{
+    margin-left: 50%;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.class-container button{
+    display: inline-block;
+    width: 213px;
+    height: 39px;
+    text-decoration: none;
+    color: yellow;
+    background-color: green;
+    border-radius: 30px;
+}
+
+.class-container p{
+    margin: 20px 0;
+}
+
+.active{
+    background: green;
+    border: 1px solid yellow;
+}
+
+.active span{
+    background-color: yellow;
+    margin-left: 28px;
+}
+
+.popup{
+    width: 400px;
+    color:red;
+    background: yellow;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    height: 200px;
+}
+
+.popup button{
+    width: 306px;
+    background-color: green;
+    border-radius: 10px;
+    color: yellow;
+}
+
+.popup h1{
+    margin: 5px;
+}
+.popup p{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}

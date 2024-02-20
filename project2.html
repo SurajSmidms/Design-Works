@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <div class="banner">
+        <nav>
+        <img src="logo.jpg">
+        <ul>
+            <li><a href="Latest">Latest</a></li>
+            <li><a href="Modern">Modern</a></li>
+            <li><a href="Contempoary">Contempoary</a></li>
+            <li><a href="Affordabele">Affordabele</a></li>
+        </ul>
+        <button id = "btn" type="button" onclick="toggleBtn()"><span></span></button>
+    </nav>
+
+    <div class="class-container">
+        <h1>Latest In Lighting</h1>
+            <p>This is a sample lamp from our country,Hope you enjoy it </p>
+            <button onclick="modalButton()">Check All the containers</button>
+    </div>
+    <div class="popup">
+        <h1>it is a sample modal page </h1>
+        <p>this is the body of the modal page line 1</p>
+        <p>the modal page line 2</p>
+        <p style="margin-bottom: 6px;">Thank you</p>
+        <button>OK</button>
+    </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function toggleBtn() {
+        var btn = document.getElementById("btn");
+        btn.classList.toggle("active");
+    }
+
+    function modalButton() {
+        
+    }
+
+</script>
